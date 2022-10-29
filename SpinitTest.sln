@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinitTest", "SpinitTest.csproj", "{B6D33589-62AF-4961-B894-B424ACF4825E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D33589-62AF-4961-B894-B424ACF4825E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D33589-62AF-4961-B894-B424ACF4825E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D33589-62AF-4961-B894-B424ACF4825E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D33589-62AF-4961-B894-B424ACF4825E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F1A8E1E-025A-4EEF-80C1-EDA199BC80AA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SpinitTest</name>
+    </assembly>
+    <members>
+        <member name="P:SpinitTest.Queries.PagedListQuery.OrderBy">
+            <summary>
+            **Order by** _Example_: 
+            * population desc, slugstate desc, id
+            * id desc
+            * year, id
+            
+            ___desc = descending___
+            
+            There are alot of other properties you can order by
+            </summary>
+        </member>
+        <member name="P:SpinitTest.Queries.PagedListQuery.PageNumber">
+            <summary>
+            **Page Number** _Example_: If your total count in your response header is 20 and 
+            
+            your page size is 10, then the other 10 is in page number 2.
+            
+            Default is 1
+            </summary>
+        </member>
+        <member name="P:SpinitTest.Queries.PagedListQuery.PageSize">
+            <summary>
+            **Page Size** _Example_: Select the amount of items you want to be displayed in each page
+            
+            In order to get all data without pagination, set PageSize = 0
+            
+            Defalut is 10
+            </summary>
+        </member>
+        <member name="P:SpinitTest.Queries.StateQuery.Id">
+            <summary>
+            **Id of the state** _Example_:  04000US01
+            </summary>
+        </member>
+        <member name="P:SpinitTest.Queries.StateQuery.State">
+            <summary>
+            **State name** _Example_: Alabama
+            </summary>
+        </member>
+        <member name="P:SpinitTest.Queries.StateQuery.IdYear">
+            <summary>
+            **Id of the year for that state** _Example_:  2020
+            </summary>
+        </member>
+        <member name="P:SpinitTest.Queries.StateQuery.Year">
+            <summary>
+            **Year/Years you want a set of data from** _Example_:  2020 or 2018, 2019, 2020 (must be comma separated)
+            </summary>
+        </member>
+        <member name="P:SpinitTest.Queries.StateQuery.Population">
+            <summary>
+            **State population larger than inserted number** _Example_:  20000
+            </summary>
+        </member>
+        <member name="P:SpinitTest.Queries.StateQuery.SlugState">
+            <summary>
+            **SlugState** _Example_:  alabama
+            </summary>
+        </member>
+    </members>
+</doc>
